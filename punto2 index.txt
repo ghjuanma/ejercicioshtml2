@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Pagina principal</title>
+</head>
+<style>
+
+  
+body {
+    background-color: #B88B5C  ;
+  }
+
+  
+.texto-grande {
+    font-size: 24px;
+  }
+
+  .texto-limitado {
+    max-width: 450px;
+    margin: 0 auto; 
+  }
+
+ .enlace-cuadrado {
+      display: inline-block;
+      padding: 5px;
+      width: auto;
+      height: auto;
+      text-align: center;
+      border: 2px solid black;
+      background-color: white;
+      text-decoration: none;
+      color: black;
+    }
+
+</style>
+
+<body>
+<div class="texto-limitado">
+   <h1>Esta Sera La Pagina Principal</h1>
+  
+  <section>
+    <h3>Esta seccion 1 va a contener un "hola mundo"</h3>
+    <p>El link a continuacion tendra el tema antes mencionado</p>
+    <a href="https://la-mas-fachera.github.io/html2/punto2%20pagina2.html" class="enlace-cuadrado">seccion 1</a>
+  </section>
+  
+  <section>
+    <h2>Esta Seccion 2 sera la que contenga el enlace a Google</h2>
+    <a href="https://www.google.com.ar" class="enlace-cuadrado">Ir a Google</a>
+    <br></br>
+    Link que lleva a una Imagen <br>
+    <a href="https://d22fxaf9t8d39k.cloudfront.net/f1ec07ac9cb336a0149268687b59688acc42723ad1df5cb8d4ee3556ebf8132754827.webp" class="enlace-cuadrado">Imagen de birome</a>
+  </section>
+
+   </br></br>
+        </br></br>
+        <a href="https://JulyElias.github.io/ejerciciosdehtml2/index.html" class="enlace-cuadrado" >volver</a>
+        </br></br>
+</body>
+</html>
